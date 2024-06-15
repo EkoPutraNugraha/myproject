@@ -1,0 +1,103 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExclusiveWash">
+
+    <!-- Fixed Header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#00C4C4"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/back_exlusive" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exclusive Wash"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/header"
+        android:background="@color/_bg__tampilan_utama_color"
+        android:layout_above="@id/footer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Item 1 -->
+            <include
+                android:id="@+id/item1"
+                layout="@layout/item_layout" />
+
+            <!-- Item 2 -->
+            <include
+                android:id="@+id/item2"
+                layout="@layout/item_layout2" />
+
+            <!-- Item 3 -->
+            <include
+                android:id="@+id/item3"
+                layout="@layout/item_layout3" />
+
+            <!-- Item 4 -->
+            <include
+                android:id="@+id/item4"
+                layout="@layout/item_layout4" />
+
+            <!-- Item 5 -->
+            <include
+                android:id="@+id/item5"
+                layout="@layout/item_layout5" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed Footer -->
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/_bg__menu_history_riwayat_color"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Harga: Rp0"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:layout_below="@id/total_price"
+            android:layout_marginTop="16dp"
+            android:id="@+id/continue_button"
+            android:background="#00C4C4"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>

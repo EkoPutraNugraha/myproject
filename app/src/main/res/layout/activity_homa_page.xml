@@ -1,0 +1,206 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomaPage"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/_bg__menu_history_riwayat_color"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <!-- Konten layout lainnya -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:background="@drawable/_bg__tampilan_utama_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="411dp"
+                android:layout_height="823dp" />
+
+            <View
+                android:background="@drawable/rectangle_34_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-12dp"
+                android:layout_width="416dp"
+                android:layout_height="222dp" />
+
+            <View
+                android:background="@drawable/rectangle_11_shape"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="171dp"
+                android:layout_width="339dp"
+                android:layout_height="54dp" />
+
+            <View
+                android:background="@drawable/rectangle_24_shape"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="44dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="131dp"
+                android:layout_marginTop="45dp"
+                android:layout_width="123dp"
+                android:layout_height="62dp"
+                android:text="Welcome to Wishwash" />
+
+            <TextView
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="129dp"
+                android:layout_marginTop="99dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="if you have dirty clothes send it to us" />
+
+            <TextView
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="151dp"
+                android:layout_marginTop="179dp"
+                android:layout_width="108dp"
+                android:layout_height="39dp"
+                android:text="Hi "
+                android:id="@+id/user_name_text_view"/>
+
+            <TextView
+                android:textSize="13sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="176dp"
+                android:layout_marginTop="323dp"
+                android:layout_width="163.5dp"
+                android:layout_height="27.5dp"
+                android:text="Estimation 2/3 days" />
+
+            <TextView
+                android:textSize="13sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="480dp"
+                android:layout_width="157.5dp"
+                android:layout_height="34.5dp"
+                android:text="Estimation 3/4 days" />
+
+            <TextView
+                android:textSize="13sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="640dp"
+                android:layout_width="157.5dp"
+                android:layout_height="34.5dp"
+                android:text="Your Order History"
+                />
+
+            <ImageView
+                android:src="@drawable/image_14"
+                android:contentDescription="image_14"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="53dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <View
+                android:background="@drawable/_rectangle_24_ek1_shape"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="256dp"
+                android:layout_width="98dp"
+                android:layout_height="98dp" />
+
+            <View
+                android:background="@drawable/_rectangle_36_shape"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="408dp"
+                android:layout_width="90dp"
+                android:layout_height="105dp" />
+
+            <View   android:id="@+id/rectangle_52"
+                android:background="@drawable/_rectangle_36_shape"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="582dp"
+                android:layout_width="90dp"
+                android:layout_height="105dp" />
+
+
+            <ImageView
+                android:src="@drawable/_image_19"
+                android:id="@+id/exclusive_wash_section"
+                android:contentDescription="_image_19"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="272dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <ImageView
+                android:src="@drawable/_image_21"
+                android:contentDescription="_image_21"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="420dp"
+                android:id="@+id/wash_kilogram_section"
+                android:layout_width="70dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="176dp"
+                android:layout_marginTop="272dp"
+                android:layout_width="194dp"
+                android:layout_height="38dp"
+                android:text="Exclusive Wash" />
+
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="173dp"
+                android:layout_marginTop="429dp"
+                android:layout_width="207dp"
+                android:layout_height="47dp"
+                android:text="Wash per Kilogram" />
+            <TextView
+                android:textSize="14sp"
+                android:textColor="@color/welcome_to_wishwash_color"
+                android:layout_marginLeft="177dp"
+                android:layout_marginTop="616dp"
+                android:layout_width="207dp"
+                android:layout_height="47dp"
+                android:text="History"
+                />
+
+            <ImageView
+                android:contentDescription="image_22"
+                android:src="@drawable/_image_22"
+                android:layout_marginStart="79dp"
+                android:layout_marginTop="600dp"
+                android:layout_width="64dp"
+                android:layout_height="68dp"
+                android:id="@+id/history_section"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

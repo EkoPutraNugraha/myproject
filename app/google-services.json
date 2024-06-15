@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81580794079",
+    "project_id": "wish-wash-7288a",
+    "storage_bucket": "wish-wash-7288a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81580794079:android:735048bba37589f5c4496a",
+        "android_client_info": {
+          "package_name": "com.example.wishwash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkGCB-jJFHnqeY79rGtd-ONExfYHkilEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
